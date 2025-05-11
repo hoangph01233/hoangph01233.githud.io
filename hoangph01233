@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness Pro - Chi Tiết Bài Tập</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Fitness Pro</h1>
+    <p>Cùng bạn chinh phục thể hình</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Trang chủ</a>
+    <a href="bai-tap.html">Bài tập</a>
+    <a href="chi-tiet-bai-tap.html">Chi tiết bài tập</a>
+    <a href="ke-hoach.html">Kế hoạch</a>
+    <a href="dinh-duong.html">Dinh dưỡng</a>
+    <a href="tai-khoan.html">Tài khoản</a>
+  </nav>
+
+  <section id="chi-tiet-bai-tap">
+    <h2>Chi Tiết Bài Tập: Deadlift</h2>
+
+    <div class="video-container">
+      <h3>Video Hướng Dẫn</h3>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/O94ymK47QeA?start=56" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="details">
+      <h3>Mô Tả Kỹ Thuật</h3>
+      <p>Bài tập Deadlift là một bài tập toàn thân, chủ yếu tác động lên cơ lưng dưới và chân. Để thực hiện bài tập này, bạn cần chú ý giữ lưng thẳng và nâng tạ bằng chân và lưng dưới, tránh nâng bằng lưng để tránh chấn thương.</p>
+
+      <h3>Lưu Ý Khi Thực Hiện</h3>
+      <ul>
+        <li>Giữ lưng thẳng trong suốt quá trình tập.</li>
+        <li>Không nâng bằng lưng, sử dụng chân và hông để đẩy tạ lên.</li>
+        <li>Điều chỉnh tạ sao cho vừa với khả năng của bạn.</li>
+      </ul>
+
+      <h3>Số Rep/Set Đề Xuất</h3>
+      <p>3 set x 10 reps</p>
+
+      <button onclick="themVaoKeHoach('Deadlift')">Thêm vào kế hoạch luyện tập</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Fitness Pro.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
